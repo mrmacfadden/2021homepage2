@@ -1,0 +1,75 @@
+body{
+    background:#F98071;
+    text-align:center;
+    color:#fff6e2;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size:150px;
+} 
+
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+input{
+    font-size:24px;
+    padding:10px;
+    background:#F98071;
+    border:1px solid #ffecc3;
+}
+::placeholder {
+    color:#ffecc3;
+}
+.searchbar{
+    max-width:600px;
+    width:100%;
+    color:#ffecc3;
+}
+.button{
+    color:#ffecc3;
+    transition:.15s;
+}
+.button:hover{
+    background:#ffecc3;
+    color:#F98071;
+    cursor: pointer;
+}
+/*
+=================================================
+CLOCK
+=================================================
+*/
+#clock{
+    position:absolute;
+    bottom:20px;
+    right:30px;
+    font-family:'Tahoma', sans-serif;
+    font-size:18px;
+}
+
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+}
+.bookmarks a{
+    font-size:24px;
+    margin:0 30px;
+    color:#fff6e2;
+    line-height:32px;
+    transition:.2s;
+    text-decoration:none;
+}
+.bookmarks a:hover{
+    color:#ffecc3;
+    font-size:28px;
+    line-height:26px;
+
+}
