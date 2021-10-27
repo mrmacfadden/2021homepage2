@@ -5,10 +5,15 @@ body{
 }
 
 h1{
-    font-family: 'Rampart One', cursive;
-    font-size:150px;
+    font-family: 'Slackey', sans-serif;
+    font-size:120px;
+    color:#ffecc3;
+    line-height: 100px;
+    margin:200px 0 150px 0;
 } 
-
+a{
+    text-decoration:none;
+}
 
 /*
 =================================================
@@ -60,16 +65,13 @@ BOOKMARKS
     padding:30px;
 }
 .bookmarks a{
-    font-size:24px;
-    margin:0 30px;
-    color:#fff6e2;
-    line-height:32px;
-    transition:.2s;
-    text-decoration:none;
+    font-size:42px;
+    margin:0 20px;
+    color:#ffecc3;
+    transition:.15s;
+    vertical-align: top;
 }
 .bookmarks a:hover{
-    color:#ffecc3;
-    font-size:28px;
-    line-height:26px;
-
+    font-size:72px;
+    position:relative;
 }
