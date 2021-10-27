@@ -53,7 +53,9 @@ CLOCK
     bottom:20px;
     right:30px;
     font-family:'Tahoma', sans-serif;
-    font-size:18px;
+    font-size:44px;
+    font-weight:700;
+    color:#ffecc3;
 }
 
 /*
